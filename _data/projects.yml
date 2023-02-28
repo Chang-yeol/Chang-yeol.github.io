@@ -3,7 +3,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     # url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
     image:
-      path: "few_shot.jpg" # path: assets/project/
+      path: "few_shot.JPG" # path: assets/project/
       alt: "few shot learning"
     date: Fall 2019
     title: A Few-Shot Learning for Animation Character Classification
@@ -13,17 +13,17 @@
     contents:
         - title: Quadruplet Loss
           image:
-            path: quadruple.jpg
+            path: quadruple.JPG
             alt: "quadruplet loss"
           # description: quadruplet loss
         - title: Task-relevant Masking
           image:
-            path: task_relevant.jpg
+            path: task_relevant.JPG
             alt: "Task-relevant Masking"
           # description: <li>Responsive Layout</li>
         - title: Result
           image:
-            path: few_shot_result.jpg
+            path: few_shot_result.JPG
             alt: "Result"
           # description: <li>Responsive Layout</li> 
             
@@ -33,7 +33,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     # url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
     image:
-      path: "PoNeG.jpg" # path: assets/project/
+      path: "PoNeG.JPG" # path: assets/project/
       alt: "Positive and Negative Training of Graph Convolutional Network"
     date: Spring 2020
     title: Positive and Negative Training of Graph Convolutional Network
@@ -43,11 +43,11 @@
     contents:
         - title: Final Method
           image:
-            path: PoNeG2.jpg
+            path: PoNeG2.JPG
             alt: "Final Method"
           # description: quadruplet loss
         - title: Result
           image:
-            path: PoNeG_result.jpg
+            path: PoNeG_result.JPG
             alt: "Task-relevant Masking"
           # description: <li>Responsive Layout</li>

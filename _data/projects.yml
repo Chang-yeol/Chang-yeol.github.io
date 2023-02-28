@@ -1,42 +1,53 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+    # url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
     image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-    contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+      path: "few_shot.jpg" # path: assets/project/
+      alt: "few shot learning"
+    date: Fall 2019
+    title: A Few-Shot Learning for Animation Character Classification
+    summary: Software Capstone Project
+    description: Few-shot classification is a problem of recognizing unseen classes during training with limited labeled examples. While meta-learning algorithms became one promising direction, our experiment shows that these algorithms work poorly on animated character datasets compared to real-world image datasets. To overcome this problem, we propose two approaches, 1) introducing triple loss (or quadruple loss) to the existing algorithms, and 2) converting features to be more task-relevant using learnable mapping function. 
 
-- project:
+    contents:
+        - title: Quadruplet Loss
+          image:
+            path: quadruple.jpg
+            alt: "quadruplet loss"
+          # description: quadruplet loss
+        - title: Task-relevant Masking
+          image:
+            path: task_relevant.jpg
+            alt: "Task-relevant Masking"
+          # description: <li>Responsive Layout</li>
+        - title: Result
+          image:
+            path: few_shot_result.jpg
+            alt: "Result"
+          # description: <li>Responsive Layout</li> 
+            
+
+- project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
+    # url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+    image:
+      path: "PoNeG.jpg" # path: assets/project/
+      alt: "Positive and Negative Training of Graph Convolutional Network"
+    date: Spring 2020
+    title: Positive and Negative Training of Graph Convolutional Network
+    summary: Software Capstone Project
+    description: Graph convolutional network (GCN) is a class of convolutional network that can process data that can be represented by graph. Utilizing that the concept of negativity is clear on graph, we propose the training paradigm that considering both positive graph and negative graph where negative graph can be defined various way, e.g., shortest path, random drop. The experiment shows that applying this training to GCN models (e.g., GraphSAGE, GAT, SplinCNN) can outperform the existing accuracy.
+
+    contents:
+        - title: Final Method
+          image:
+            path: PoNeG2.jpg
+            alt: "Final Method"
+          # description: quadruplet loss
+        - title: Result
+          image:
+            path: PoNeG_result.jpg
+            alt: "Task-relevant Masking"
+          # description: <li>Responsive Layout</li>

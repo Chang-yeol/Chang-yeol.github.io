@@ -9,7 +9,7 @@
       padding-left: 10px;
       color: $theme-dark;
       font-size: 25px;
-      font-weight: 600;
+      /*font-weight: 600;*/
     }
   }
   .card-container {
@@ -30,7 +30,7 @@
     .card-wrapper {
       padding: 8px 10px;
       margin: 10px auto;
-      display: inline-block;
+      /*display: inline-block;*/
       width: 100%;
       .card {
         -webkit-transition-duration: 0.8s;
@@ -73,7 +73,7 @@
           // height: 180px;
           .title {
             color: $theme-dark;
-            font-weight: 600;
+            /*font-weight: 600;*/
           }
           .date {
             color: rgba(0, 0, 0, 0.5);

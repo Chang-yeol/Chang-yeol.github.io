@@ -29,8 +29,6 @@ interests: # Remove for hiding the interests section
 skills: # Remove for hiding the skills section
   - skill: Programming (Python, Java, C++)
     value: 85  # Percent value
-  - skill: Front-end / Back-end
-    value: 30
 social:
   email: changyeollee@yonsei.ac.kr
   orcid: 
@@ -50,6 +48,8 @@ social:
   facebook:
   instagram: l.changyeol
 awards: # Remove for hiding the awards section
-  - Ph.D student at Yonsei Univserity (advised by Prof. Hyung-Chan An)
   - B.S. in Computer Science, Yonsei Univ. High honors at graduation (2021.02)
   - RC Creative Platform Grand Prize, Yonsei Univ. & NEXON Co., Ltd. (2017.11)
+education:
+  - Ph.D student at Yonsei Univserity (advised by Prof. Hyung-Chan An)
+  - B.S. in Computer Science, Yonsei Univ. (2017.03-2021.02)

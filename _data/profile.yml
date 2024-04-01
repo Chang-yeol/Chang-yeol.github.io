@@ -3,32 +3,36 @@ username: Changyeol Lee
 description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> \#Social \#Creative \#Joyful \#Positive \#Energetic
 webpage: https://changyeol-lee.github.io
 experience: # Remove for hiding the experience section
-  - start: 2022.9
-    end: 2022.10
-    experience: Visiting Research Intern, Cornell Univ. (Advisor - Prof. David Shmoys)
-  - start: 2021.03
+  - start: 2024.03.
     end: current
+    experience: Co-organizer of Yonsei CS Theory Student Group<a href="https://yonsei-cs-theory-students.github.io/">(link)</a><br/>(with Sungmin Kim<a href="https://renariodyne.github.io/">(link)</a>)
+  - start: 2022.09.
+    end: 2022.10.
+    experience: Visiting Research Intern, Cornell Univ. (Advisor - Prof. David Shmoys)
+  - start: 2021.03.
+    end: 2024.02.
     experience: Teaching Assistent, Yonsei Univ. (Data Structures, Algorithm Analysis)
-  - start: 2019.03
-    end: 2020.12
+  - start: 2019.03.
+    end: 2020.12.
     experience: Tutoring, Yonsei Univ. (Linear Algebra, Algorithm Analysis)
-  - start: 2018.12
-    end: 2021.02
+  - start: 2018.12.
+    end: 2021.02.
     experience: Research Intern, Yonsei Univ. (Advisor - Prof. Hyung-Chan An)
-  - start: 2018.05
-    end: 2020.12
+  - start: 2018.05.
+    end: 2020.12.
     experience: Yonsei-Nexon RC Creative Platform Peer Mentoring (Head Mentor)
-  - start: 2017.03
-    end: 2019.02
+  - start: 2017.03.
+    end: 2019.02.
     experience: Student Council of Computer Science Department, Yonsei Univ.
 interests: # Remove for hiding the interests section
   - Approximation and Online algortihms
   - Combinatorial Optimization
   - Game Theory and Mechanism Design
+  - Quantum algorithms
   - Theoretical Computer Science
-skills: # Remove for hiding the skills section
-  - skill: Programming (Python, Java, C++)
-    value: 85  # Percent value
+# skills: # Remove for hiding the skills section
+#   - skill: Programming (Python, Java, C++)
+#     value: 85  # Percent value
 social:
   email: changyeollee@yonsei.ac.kr
   orcid: 

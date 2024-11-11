@@ -1,5 +1,5 @@
 ---
 layout: portfolio
-title : Portfolio
-description: Personal portfolio
+title : Changyeol Lee
+description: personal webpage
 ---

@@ -1,7 +1,7 @@
 image: assets/img/me.jpg
 username: Changyeol Lee
-description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> \#Social \#Creative \#Joyful \#Positive \#Energetic
-webpage: https://changyeol-lee.github.io
+description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> Email - changyeollee_at_yonsei.ac.kr <br /> \#Social \#Creative \#Positive
+webpage: https://chang-yeol.github.io
 experience: # Remove for hiding the experience section
   - start: 2024.03.
     end: current
@@ -25,16 +25,16 @@ experience: # Remove for hiding the experience section
     end: 2019.02.
     experience: Student Council of Computer Science Department, Yonsei Univ.
 interests: # Remove for hiding the interests section
-  - Approximation and Online algortihms
+  - Approximation Algorithm
+  - Online Algortihm
+  - Learning-augmented Algorithm
   - Combinatorial Optimization
-  - Game Theory and Mechanism Design
-  - Quantum algorithms
-  - Theoretical Computer Science
+  - Miscellaneous (Theoretical Computer Science, Game Theory and Mechanism Design, Quantum algorithms)
 # skills: # Remove for hiding the skills section
 #   - skill: Programming (Python, Java, C++)
 #     value: 85  # Percent value
 social:
-  email: changyeollee@yonsei.ac.kr
+  email: 
   orcid: 
   scholar: 
   publons: 
@@ -50,7 +50,7 @@ social:
   twitter: 
   youtube:
   facebook:
-  instagram: l.changyeol
+  instagram: 
 awards: # Remove for hiding the awards section
   - B.S. in Computer Science, Yonsei Univ. High honors at graduation (2021.02)
   - RC Creative Platform Grand Prize, Yonsei Univ. & NEXON Co., Ltd. (2017.11)

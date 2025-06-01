@@ -70,7 +70,66 @@
 <div id="publications">
   <section class="bg"></section>
   <h1 class="title">Publications</h1>
-  <h2 class="bibliography">2023</h2>
+  <h2 class="bibliography">2025</h2>
+<ol class="bibliography"><li><!-- Entry bib key -->
+<div id="lee2025improved">
+  
+  <!-- Title -->
+  <div class="title">Improved Algorithms for Overlapping and Robust Clustering of Edge-Colored Hypergraphs: An LP-Based Combinatorial Approach</div>
+  <!-- Author -->
+  <div class="author">
+            <em>Lee, Changyeol</em>,&nbsp;<a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>,&nbsp;and <a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>
+            
+  </div>
+
+  <!-- Journal/Book title and date -->
+  
+  <div class="third-line">
+    arXiv preprint arXiv:2505.18043, May, 2025
+  </div>
+
+  <!-- Links/Buttons -->
+  <div class="links">
+      [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
+      [<a href="http://arxiv.org/abs/2505.18043" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
+  </div>
+
+  <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Clustering is a fundamental task in both machine learning and data mining. Among various methods, edge-colored clustering (ECC) has emerged as a useful approach for handling categorical data. Given a hypergraph with (hyper)edges labeled by colors, ECC aims to assign vertex colors to minimize the number of edges where the vertex color differs from the edge’s color. However, traditional ECC has inherent limitations, as it enforces a nonoverlapping and exhaustive clustering. To tackle these limitations, three versions of ECC have been studied: Local ECC and Global ECC, which allow overlapping clusters, and Robust ECC, which accounts for vertex outliers. For these problems, both linear programming (LP) rounding algorithms and greedy combinatorial algorithms have been proposed. While these LP-rounding algorithms provide high-quality solutions, they demand substantial computation time; the greedy algorithms, on the other hand, run very fast but often compromise solution quality. In this paper, we present an algorithmic framework that combines the strengths of LP with the computational efficiency of combinatorial algorithms. Both experimental and theoretical analyses show that our algorithms efficiently produce high-quality solutions for all three problems: Local, Global, and Robust ECC. We complement our algorithmic contributions with complexity-theoretic inapproximability results and integrality gap bounds, which suggest that significant theoretical improvements are unlikely. Our results also answer two open questions previously raised in the literature.</p>
+    </div>
+</div></li>
+<li><!-- Entry bib key -->
+<div id="an2025handling">
+  
+  <!-- Title -->
+  <div class="title">Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</div>
+  <!-- Author -->
+  <div class="author"><a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>,&nbsp;<a href="https://people.cs.nycu.edu.tw/~mjkao/" target="_blank" rel="noopener noreferrer">Kao, Mong-Jen</a>,&nbsp;
+            <em>Lee, Changyeol</em>,&nbsp;and Lee, Mu-Ting
+  </div>
+
+  <!-- Journal/Book title and date -->
+  
+  <div class="third-line">
+    arXiv preprint arXiv:2504.06700, Apr, 2025
+  </div>
+
+  <!-- Links/Buttons -->
+  <div class="links">
+      [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
+      [<a href="http://arxiv.org/abs/2504.06700" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
+  </div>
+
+  <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>We consider the classic correlation clustering problem in the hierarchical setting. Given a complete graph G=(V,E) and ℓ layers of input information, where the input of each layer consists of a nonnegative weight and a labeling of the edges with either + or -, this problem seeks to compute for each layer a partition of V such that the partition for any non-top layer subdivides the partition in the upper-layer and the weighted number of disagreements over the layers is minimized.
+Hierarchical correlation clustering is a natural formulation of the classic problem of fitting distances by ultrametrics, which is further known as numerical taxonomy in the literature. While single-layer correlation clustering received wide attention since it was introduced and major progress evolved in the past three years, few is known for this problem in the hierarchical setting. The lack of understanding and adequate tools is reflected in the large approximation ratio known for this problem originating from 2021.
+In this work we make both conceptual and technical contributions towards the hierarchical clustering problem. We present a simple paradigm that greatly facilitates LP-rounding in hierarchical clustering, illustrated with an algorithm providing a significantly improved approximation guarantee of 25.7846 for the hierarchical correlation clustering problem. Our techniques reveal surprising new properties of the formulation presented and subsequently used in previous works for hierarchical clustering over the past two decades. This provides an interpretation on the core problem in hierarchical clustering as the problem of finding cuts with prescribed properties regarding average distances.
+We further illustrate this perspective by showing that a direct application of the techniques gives a simple alternative to the state-of-the-art result for the ultrametric violation distance problem.</p>
+    </div>
+</div></li></ol>
+<h2 class="bibliography">2023</h2>
 <ol class="bibliography"><li><!-- Entry bib key -->
 <div id="shin2023optimal">
   
@@ -85,14 +144,19 @@
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    arXiv preprint arXiv:2312.02547, 2023
+    arXiv preprint arXiv:2312.02547, Dec, 2023
   </div>
 
   <!-- Links/Buttons -->
   <div class="links">
+      [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
+      [<a href="http://arxiv.org/abs/2312.02547" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
   </div>
 
-  
+  <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>The learning-augmented multi-option ski rental problem generalizes the classical ski rental problem in two ways: the algorithm is provided with a prediction on the number of days we can ski, and the ski rental options now come with a variety of rental periods and prices to choose from, unlike the classical two-option setting. Subsequent to the initial study of the multi-option ski rental problem (without learning augmentation) due to Zhang, Poon, and Xu, significant progress has been made for this problem recently in particular. The problem is very well understood when we relinquish one of the two generalizations – for the learning-augmented classical ski rental problem, algorithms giving best-possible trade-off between consistency and robustness exist; for the multi-option ski rental problem without learning augmentation, deterministic/randomized algorithms giving the best-possible competitiveness have been found. However, in presence of both generalizations, there remained a huge gap between the algorithmic and impossibility results. In fact, for randomized algorithms, we did not have any nontrivial lower bounds on the consistency-robustness trade-off before. This paper bridges this gap for both deterministic and randomized algorithms. For deterministic algorithms, we present a best-possible algorithm that completely matches the known lower bound. For randomized algorithms, we show the first nontrivial lower bound on the consistency-robustness trade-off, and also present an improved randomized algorithm. Our algorithm matches our lower bound on robustness within a factor of e/2 when the consistency is at most 1.086.</p>
+    </div>
 </div></li>
 <li><!-- Entry bib key -->
 <div id="pmlr-v202-shin23c">
@@ -108,12 +172,12 @@
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In Proceedings of the 40th International Conference on Machine Learning, vol. 202, pp. 31539–31561, 23–29 jul, 2023
+    In Proceedings of the 40th International Conference on Machine Learning, vol. 202, pp. 31539–31561, Jul, 2023
   </div>
 
   <!-- Links/Buttons -->
   <div class="links">
-      [<a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>]
+      [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
       [<a href="http://arxiv.org/abs/2302.06832" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
       [<a href="https://proceedings.mlr.press/v202/shin23c/shin23c.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>]
       [<a href="https://proceedings.mlr.press/v202/shin23c.html" class="btn btn-sm z-depth-0" role="button">URL</a>]

@@ -24,8 +24,9 @@ References
 @article{shin2023optimal,
   title={On Optimal Consistency-Robustness Trade-Off for Learning-Augmented Multi-Option Ski Rental},
   author={Shin, Yongho and Lee, Changyeol and An, Hyung-Chan},
-  journal={(To appear at TALG) arXiv preprint arXiv:2312.02547},
+  journal={See the journal paper by Shin, Lee, Lee, and An (TALG'25)},
   arxiv= {2312.02547},
+  url = {https://doi.org/10.1145/3763239},
   year={2023},
   month=12,
   abstract = {The learning-augmented multi-option ski rental problem generalizes the classical ski rental problem in two ways: the algorithm is provided with a prediction on the number of days we can ski, and the ski rental options now come with a variety of rental periods and prices to choose from, unlike the classical two-option setting. Subsequent to the initial study of the multi-option ski rental problem (without learning augmentation) due to Zhang, Poon, and Xu, significant progress has been made for this problem recently in particular. The problem is very well understood when we relinquish one of the two generalizations -- for the learning-augmented classical ski rental problem, algorithms giving best-possible trade-off between consistency and robustness exist; for the multi-option ski rental problem without learning augmentation, deterministic/randomized algorithms giving the best-possible competitiveness have been found. However, in presence of both generalizations, there remained a huge gap between the algorithmic and impossibility results. In fact, for randomized algorithms, we did not have any nontrivial lower bounds on the consistency-robustness trade-off before. This paper bridges this gap for both deterministic and randomized algorithms. For deterministic algorithms, we present a best-possible algorithm that completely matches the known lower bound. For randomized algorithms, we show the first nontrivial lower bound on the consistency-robustness trade-off, and also present an improved randomized algorithm. Our algorithm matches our lower bound on robustness within a factor of e/2 when the consistency is at most 1.086.}
@@ -52,4 +53,19 @@ We further illustrate this perspective by showing that a direct application of t
   month=5,
   arxiv= {2505.18043},
   abstract = {Clustering is a fundamental task in both machine learning and data mining. Among various methods, edge-colored clustering (ECC) has emerged as a useful approach for handling categorical data. Given a hypergraph with (hyper)edges labeled by colors, ECC aims to assign vertex colors to minimize the number of edges where the vertex color differs from the edge's color. However, traditional ECC has inherent limitations, as it enforces a nonoverlapping and exhaustive clustering. To tackle these limitations, three versions of ECC have been studied: Local ECC and Global ECC, which allow overlapping clusters, and Robust ECC, which accounts for vertex outliers. For these problems, both linear programming (LP) rounding algorithms and greedy combinatorial algorithms have been proposed. While these LP-rounding algorithms provide high-quality solutions, they demand substantial computation time; the greedy algorithms, on the other hand, run very fast but often compromise solution quality. In this paper, we present an algorithmic framework that combines the strengths of LP with the computational efficiency of combinatorial algorithms. Both experimental and theoretical analyses show that our algorithms efficiently produce high-quality solutions for all three problems: Local, Global, and Robust ECC. We complement our algorithmic contributions with complexity-theoretic inapproximability results and integrality gap bounds, which suggest that significant theoretical improvements are unlikely. Our results also answer two open questions previously raised in the literature.}
+}
+
+@article{shin2025improved,
+author = {Shin, Yongho and Lee, Changyeol and Lee, Gukryeol and An, Hyung-Chan},
+title = {Improved Learning-Augmented Algorithms and (Tight) Lower Bounds for Multi-Option Ski Rental Problem},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1549-6325},
+url = {https://doi.org/10.1145/3763239},
+abstract = {We present improved learning-augmented algorithms for the multi-option ski rental problem. Learning-augmented algorithms take machine learning (ML) predictions as an added part of the input and incorporate these predictions in solving the given problem. Due to their unique strength that combines the power of ML predictions with provable performance guarantees, they have been extensively studied in the context of online optimization problems. Whilst the multi-option ski rental problem provides a natural generalization of the classical rent-or-buy variant, only deterministic algorithms for this problem were previously known, with or without learning augmentation.In this paper, we first present that a very simple modification to a previously known algorithm suffices to give an improved deterministic learning-augmented algorithm. In fact, we prove that this algorithm has the best possible performance of a deterministic algorithm by giving a matching lower bound. Then we present the first randomized learning-augmented algorithm, which surpasses the lower bound of deterministic algorithms; this learning-augmented algorithm is based on a new best-possible randomized competitive algorithm. These results are complemented by lower bounds for randomized competitive/learning-augmented algorithms.},
+note = {Just Accepted},
+journal = {ACM Trans. Algorithms},
+month = 9,
+keywords = {multi-option ski rental problem, learning-augmented algorithms, online algorithms, lower bounds, consistency-robustness trade-off}
 }

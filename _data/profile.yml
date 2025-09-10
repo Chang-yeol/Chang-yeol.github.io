@@ -35,13 +35,13 @@ interests: # Remove for hiding the interests section
 #     value: 85  # Percent value
 social:
   email: 
-  orcid: 
+  orcid: 0009-0005-1891-5588
   scholar: 
   publons: 
   research_gate: 
   dblp:  # Full URL
   semantic_scholar:  # Full URL
-  github: Chang-yeol
+  github: #Chang-yeol
   linkedin:  https://www.linkedin.com/in/changyoel-lee/
   gitlab: 
   bitbucket: 

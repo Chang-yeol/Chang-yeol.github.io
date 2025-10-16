@@ -1,29 +1,29 @@
 image: assets/img/me.jpg
 username: Changyeol Lee
-description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> Email - changyeollee_at_yonsei.ac.kr <br /> \#Social \#Creative \#Positive
+description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> <b>Email</b> - changyeollee_at_yonsei.ac.kr or 777john_at_yonsei.ac.kr
 webpage: https://chang-yeol.github.io
 experience: # Remove for hiding the experience section
   - start: 2024.03.
     end: current
-    experience: Co-organizer of Yonsei CS Theory Student Group<a href="https://yonsei-cs-theory-students.github.io/">(link)</a><br/>(with Sungmin Kim<a href="https://renariodyne.github.io/">(link)</a>)
+    experience: Co-organizer of Yonsei CS Theory Student Group<a href="https://yonsei-cs-theory-students.github.io/">(link)</a><br/>(with <a href="https://renariodyne.github.io/">Sungmin Kim</a>)
   - start: 2022.09.
     end: 2022.10.
-    experience: Visiting Research Intern, Cornell Univ. (Advisor - Prof. David Shmoys)
-  - start: 2021.03.
-    end: 2024.02.
-    experience: Teaching Assistent, Yonsei Univ. (Data Structures, Algorithm Analysis)
-  - start: 2019.03.
-    end: 2020.12.
-    experience: Tutoring, Yonsei Univ. (Linear Algebra, Algorithm Analysis)
+    experience: <b>Visiting Research Intern, Cornell Univ.<br/>(Advisor - Prof. <a href="https://people.orie.cornell.edu/shmoys/">David Shmoys</a>)</b>
+  # - start: 2021.03.
+  #   end: 2024.02.
+  #   experience: Teaching Assistent, Yonsei Univ. (Data Structures, Algorithm Analysis)
+  # - start: 2019.03.
+  #   end: 2020.12.
+  #   experience: Tutoring, Yonsei Univ. (Linear Algebra, Algorithm Analysis)
   - start: 2018.12.
     end: 2021.02.
-    experience: Research Intern, Yonsei Univ. (Advisor - Prof. Hyung-Chan An)
-  - start: 2018.05.
-    end: 2020.12.
-    experience: Yonsei-Nexon RC Creative Platform Peer Mentoring (Head Mentor)
-  - start: 2017.03.
-    end: 2019.02.
-    experience: Student Council of Computer Science Department, Yonsei Univ.
+    experience: <b>Research Intern, Yonsei Univ.<br/>(Advisor - Prof. Hyung-Chan An)</b>
+  # - start: 2018.05.
+  #   end: 2020.12.
+  #   experience: Yonsei-Nexon RC Creative Platform Peer Mentoring (Head Mentor)
+  # - start: 2017.03.
+  #   end: 2019.02.
+  #   experience: Student Council of Computer Science Department, Yonsei Univ.
 interests: # Remove for hiding the interests section
   - Approximation Algorithm
   - Online Algortihm
@@ -36,24 +36,30 @@ interests: # Remove for hiding the interests section
 social:
   email: 
   orcid: 0009-0005-1891-5588
-  scholar: 
+  scholar: https://scholar.google.com/citations?user=NNpwSGsAAAAJ
   publons: 
   research_gate: 
   dblp:  # Full URL
   semantic_scholar:  # Full URL
   github: #Chang-yeol
-  linkedin:  https://www.linkedin.com/in/changyoel-lee/
+  # linkedin:  https://www.linkedin.com/in/changyoel-lee/
   gitlab: 
   bitbucket: 
   google_plus:
   mastodon: 
-  twitter: 
+  # twitter: J777john
   youtube:
   facebook:
   instagram: 
 awards: # Remove for hiding the awards section
-  - B.S. in Computer Science, Yonsei Univ. High honors at graduation (2021.02)
+  - High honors at (B.S.) graduation @ Yonsei Univ. (2021.02)
   - RC Creative Platform Grand Prize, Yonsei Univ. & NEXON Co., Ltd. (2017.11)
+teachings: # Remove for hiding the teachings section
+  - Teaching Assistent @ Yonsei Univ. Algorithm Analysis CSI3108 (Fall 2021, Fall 2023)
+  - Teaching Assistent @ Yonsei Univ. Data Structures (Spring 2021, Spring 2023)
+  - Tutor @ Yonsei Univ. Algorithm Analysis CSI3108 (Fall 2019, Fall 2020)
+  - Tutor @ Yonsei Univ. Linear Algebra MAT2011 (Spring 2019)
+  - Peer Mentor (Head Mentor) @ Yonsei-Nexon RC Creative Platform (2018-2020)
 education:
   - Ph.D student at Yonsei Univserity (advised by Prof. Hyung-Chan An)
   - B.S. in Computer Science, Yonsei Univ. (2017.03-2021.02)

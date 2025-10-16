@@ -210,6 +210,25 @@
         vertical-align: text-top;
       }
     }
+    ul.teachings-list {
+      margin-top: 20px;
+      margin-left: 3%;
+      list-style-type: none;
+      list-style-position: inside;
+      li.teaching {
+        margin: 8px auto;
+        padding-left: 5px;
+        font-size: 1rem;
+        /*font-weight: 600;*/
+      }
+      li.teaching::before {
+        content: "•";
+        font-size: 200%;
+        color: $theme-color;
+        padding-right: 5px;
+        vertical-align: text-top;
+      }
+    }
     ul.educations-list {
       margin-top: 20px;
       margin-left: 3%;

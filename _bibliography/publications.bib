@@ -18,6 +18,8 @@ References
   pdf = 	 {https://proceedings.mlr.press/v202/shin23c/shin23c.pdf},
   url = 	 {https://proceedings.mlr.press/v202/shin23c.html},
   arxiv= {2302.06832},
+  poster = {ICML_2023_poster.pdf},
+  slides = {WAAC_2024_slides.pdf},
   abstract = 	 {In this paper, we present improved learning-augmented algorithms for the multi-option ski rental problem. Learning-augmented algorithms take ML predictions as an added part of the input and incorporates these predictions in solving the given problem. Due to their unique strength that combines the power of ML predictions with rigorous performance guarantees, they have been extensively studied in the context of online optimization problems. Even though ski rental problems are one of the canonical problems in the field of online optimization, only deterministic algorithms were previously known for multi-option ski rental, with or without learning augmentation. We present the first randomized learning-augmented algorithm for this problem, surpassing previous performance guarantees given by deterministic algorithms. Our learning-augmented algorithm is based on a new, provably best-possible randomized competitive algorithm for the problem. Our results are further complemented by lower bounds for deterministic and randomized algorithms, and computational experiments evaluating our algorithms’ performance improvements.}
 }
 
@@ -26,7 +28,6 @@ References
   author={Shin, Yongho and Lee, Changyeol and An, Hyung-Chan},
   journal={See the journal paper by Shin, Lee, Lee, and An (TALG'25) (arXiv preprint : arXiv:2312.02547)},
   arxiv= {2312.02547},
-  url = {https://doi.org/10.1145/3763239},
   year={2023},
   month=12,
   abstract = {The learning-augmented multi-option ski rental problem generalizes the classical ski rental problem in two ways: the algorithm is provided with a prediction on the number of days we can ski, and the ski rental options now come with a variety of rental periods and prices to choose from, unlike the classical two-option setting. Subsequent to the initial study of the multi-option ski rental problem (without learning augmentation) due to Zhang, Poon, and Xu, significant progress has been made for this problem recently in particular. The problem is very well understood when we relinquish one of the two generalizations -- for the learning-augmented classical ski rental problem, algorithms giving best-possible trade-off between consistency and robustness exist; for the multi-option ski rental problem without learning augmentation, deterministic/randomized algorithms giving the best-possible competitiveness have been found. However, in presence of both generalizations, there remained a huge gap between the algorithmic and impossibility results. In fact, for randomized algorithms, we did not have any nontrivial lower bounds on the consistency-robustness trade-off before. This paper bridges this gap for both deterministic and randomized algorithms. For deterministic algorithms, we present a best-possible algorithm that completely matches the known lower bound. For randomized algorithms, we show the first nontrivial lower bound on the consistency-robustness trade-off, and also present an improved randomized algorithm. Our algorithm matches our lower bound on robustness within a factor of e/2 when the consistency is at most 1.086.}
@@ -62,7 +63,7 @@ year = {2025},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 issn = {1549-6325},
-url = {https://doi.org/10.1145/3763239},
+url = { https://dl.acm.org/doi/10.1145/3763239?cid=99661021532},
 abstract = {We present improved learning-augmented algorithms for the multi-option ski rental problem. Learning-augmented algorithms take machine learning (ML) predictions as an added part of the input and incorporate these predictions in solving the given problem. Due to their unique strength that combines the power of ML predictions with provable performance guarantees, they have been extensively studied in the context of online optimization problems. Whilst the multi-option ski rental problem provides a natural generalization of the classical rent-or-buy variant, only deterministic algorithms for this problem were previously known, with or without learning augmentation.In this paper, we first present that a very simple modification to a previously known algorithm suffices to give an improved deterministic learning-augmented algorithm. In fact, we prove that this algorithm has the best possible performance of a deterministic algorithm by giving a matching lower bound. Then we present the first randomized learning-augmented algorithm, which surpasses the lower bound of deterministic algorithms; this learning-augmented algorithm is based on a new best-possible randomized competitive algorithm. These results are complemented by lower bounds for randomized competitive/learning-augmented algorithms.},
 note = {Just Accepted},
 journal = {<b>ACM Transactions on Algorithms (TALG)</b>},

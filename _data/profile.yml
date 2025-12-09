@@ -8,7 +8,7 @@ experience: # Remove for hiding the experience section
   experience: Will give a talk at FOCS 2025 (The 66th Annual Symposium on Foundations of Computer Science)
 - start: 2025.12.2
   end: 2025.12.7
-  experience: Will present a poster at NeurIPS 2025 (The 39th Annual Conference on Neural Information Processing Systems)
+  experience: Presented a poster at NeurIPS 2025 (The 39th Annual Conference on Neural Information Processing Systems)
 - start: 2025.6.15
   end: 2025.6.21
   experience: Visited University of Wrocław, Poland, and gave a talk on <i>LP rounding algorithm for hierarchical correlation clustering and ultrametric violation distance</i> at C⚙G seminar<br/>Invited by professor <a href="https://sites.google.com/cs.uni.wroc.pl/jby//">Jarosław Byrka</a>

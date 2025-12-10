@@ -58,6 +58,9 @@
     {%- if entry.url %}
       [<a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>]
     {%- endif %}
+    {%- if entry.talk %}
+      [<a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>]
+    {%- endif %}
     {%- if entry.doi %}
       [<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" class="btn btn-sm z-depth-0" role="button">DOI</a>]
     {%- endif %}

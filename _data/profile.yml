@@ -5,7 +5,7 @@ webpage: https://chang-yeol.github.io
 experience: # Remove for hiding the experience section
 - start: 2025.12.13
   end: 2025.12.18
-  experience: Will give a talk at FOCS 2025 (The 66th Annual Symposium on Foundations of Computer Science)
+  experience: Gave a talk at FOCS 2025 (The 66th Annual Symposium on Foundations of Computer Science, Session 10A)
 - start: 2025.12.2
   end: 2025.12.7
   experience: Presented a poster at NeurIPS 2025 (The 39th Annual Conference on Neural Information Processing Systems)

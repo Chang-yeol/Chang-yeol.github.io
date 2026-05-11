@@ -13,13 +13,31 @@ References
   editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
   volume = 	 {202},
   series = 	 {Proceedings of Machine Learning Research},
-  month =7,
+  month = 	 {23--29 Jul},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v202/shin23c/shin23c.pdf},
   url = 	 {https://proceedings.mlr.press/v202/shin23c.html},
   poster = {ICML_2023_poster.pdf},
   slides = {WAAC_2024_slides.pdf},
   abstract = 	 {In this paper, we present improved learning-augmented algorithms for the multi-option ski rental problem. Learning-augmented algorithms take ML predictions as an added part of the input and incorporates these predictions in solving the given problem. Due to their unique strength that combines the power of ML predictions with rigorous performance guarantees, they have been extensively studied in the context of online optimization problems. Even though ski rental problems are one of the canonical problems in the field of online optimization, only deterministic algorithms were previously known for multi-option ski rental, with or without learning augmentation. We present the first randomized learning-augmented algorithm for this problem, surpassing previous performance guarantees given by deterministic algorithms. Our learning-augmented algorithm is based on a new, provably best-possible randomized competitive algorithm for the problem. Our results are further complemented by lower bounds for deterministic and randomized algorithms, and computational experiments evaluating our algorithms’ performance improvements.}
+}
+
+% arxiv= {2505.18043},
+@inproceedings{lee2025improved,
+  title={Improved Algorithms for Overlapping and Robust Clustering of Edge-Colored Hypergraphs: An {LP}-Based Combinatorial Approach},
+  author={Changyeol Lee and Yongho Shin and Hyung-Chan An},
+  booktitle={<b>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</b>},
+  editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+  pages = {70823--70855},
+  publisher = {Curran Associates, Inc.},
+  volume = {38},
+  year={2025},
+  month=12,
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2025/file/66baf9a4bb9504610bfd751906bfbd55-Paper-Conference.pdf},
+  url={https://papers.nips.cc/paper_files/paper/2025/hash/66baf9a4bb9504610bfd751906bfbd55-Abstract-Conference.html},
+  slides ={NeurIPS_2025_slides.pdf},
+  poster = {NeurIPS_2025_poster.pdf},
+  abstract = {Clustering is a fundamental task in both machine learning and data mining. Among various methods, edge-colored clustering (ECC) has emerged as a useful approach for handling categorical data. Given a hypergraph with (hyper)edges labeled by colors, ECC aims to assign vertex colors to minimize the number of edges where the vertex color differs from the edge's color. However, traditional ECC has inherent limitations, as it enforces a nonoverlapping and exhaustive clustering. To tackle these limitations, three versions of ECC have been studied: Local ECC and Global ECC, which allow overlapping clusters, and Robust ECC, which accounts for vertex outliers. For these problems, both linear programming (LP) rounding algorithms and greedy combinatorial algorithms have been proposed. While these LP-rounding algorithms provide high-quality solutions, they demand substantial computation time; the greedy algorithms, on the other hand, run very fast but often compromise solution quality. In this paper, we present a family of algorithms that combines the strengths of LP with the computational efficiency of combinatorial algorithms. Both experimental and theoretical analyses show that our algorithms efficiently produce high-quality solutions for all three problems: Local, Global, and Robust ECC. We complement our algorithmic contributions with complexity-theoretic inapproximability results and integrality gap bounds, which suggest that significant theoretical improvements are unlikely. Our results also answer two open questions previously raised in the literature.},
 }
 
 % arxiv={2504.06700},
@@ -29,6 +47,8 @@ References
   booktitle={<b>IEEE 66th Annual Symposium on Foundations of Computer Science (FOCS)</b>},
   year={2025},
   month=12,
+  pages={1144-1169},
+  doi={10.1109/FOCS63196.2025.00060},
   pdf={https://ieee-focs.org/FOCS-2025-Papers/pdfs/FOCS2025-4pLZMZRP5BPG9n0GSua5T9/713200b146/713200b146.pdf},
   talk={https://youtu.be/Iy1FQARjw0Y?si=CuDIGTW3QAfkl8mo},
   slides ={FOCS_2025_slides.pdf},
@@ -36,20 +56,6 @@ References
 Hierarchical correlation clustering is a natural formulation of the classic problem of fitting distances by ultrametrics, which is further known as numerical taxonomy in the literature. While single-layer correlation clustering received wide attention since it was introduced and major progress evolved in the past three years, few is known for this problem in the hierarchical setting. The lack of understanding and adequate tools is reflected in the large approximation ratio known for this problem originating from 2021.
 In this work we make both conceptual and technical contributions towards the hierarchical clustering problem. We present a simple paradigm that greatly facilitates LP-rounding in hierarchical clustering, illustrated with an algorithm providing a significantly improved approximation guarantee of 25.7846 for the hierarchical correlation clustering problem. Our techniques reveal surprising new properties of the formulation presented and subsequently used in previous works for hierarchical clustering over the past two decades. This provides an interpretation on the core problem in hierarchical clustering as the problem of finding cuts with prescribed properties regarding average distances.
 We further illustrate this perspective by showing that a direct application of the techniques gives a simple alternative to the state-of-the-art result for the ultrametric violation distance problem.}
-}
-
-% arxiv= {2505.18043},
-@inproceedings{lee2025improved,
-  title={Improved Algorithms for Overlapping and Robust Clustering of Edge-Colored Hypergraphs: An {LP}-Based Combinatorial Approach},
-  author={Changyeol Lee and Yongho Shin and Hyung-Chan An},
-  booktitle={<b>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</b>},
-  year={2025},
-  month=12,
-  url={https://openreview.net/forum?id=F3DrgOZYc6},
-  pdf={https://openreview.net/pdf?id=F3DrgOZYc6},
-  slides ={NeurIPS_2025_slides.pdf},
-  poster = {NeurIPS_2025_poster.pdf},
-  abstract = {Clustering is a fundamental task in both machine learning and data mining. Among various methods, edge-colored clustering (ECC) has emerged as a useful approach for handling categorical data. Given a hypergraph with (hyper)edges labeled by colors, ECC aims to assign vertex colors to minimize the number of edges where the vertex color differs from the edge's color. However, traditional ECC has inherent limitations, as it enforces a nonoverlapping and exhaustive clustering. To tackle these limitations, three versions of ECC have been studied: Local ECC and Global ECC, which allow overlapping clusters, and Robust ECC, which accounts for vertex outliers. For these problems, both linear programming (LP) rounding algorithms and greedy combinatorial algorithms have been proposed. While these LP-rounding algorithms provide high-quality solutions, they demand substantial computation time; the greedy algorithms, on the other hand, run very fast but often compromise solution quality. In this paper, we present a family of algorithms that combines the strengths of LP with the computational efficiency of combinatorial algorithms. Both experimental and theoretical analyses show that our algorithms efficiently produce high-quality solutions for all three problems: Local, Global, and Robust ECC. We complement our algorithmic contributions with complexity-theoretic inapproximability results and integrality gap bounds, which suggest that significant theoretical improvements are unlikely. Our results also answer two open questions previously raised in the literature.},
 }
 
 @article{shin2025improved,
@@ -79,4 +85,14 @@ keywords = {multi-option ski rental problem, learning-augmented algorithms, onli
   month=10,
   arxiv= {2510.13446},
   abstract = {Correlation Clustering is a fundamental clustering problem, and there has been a line of work on improving the approximation ratio for this problem in recent years. A key algorithmic component in these works is the cluster LP. Chromatic Correlation Clustering is an interesting generalization that has also been intensively studied. In light of success of the cluster LP in Correlation Clustering, it would be an interesting question whether the cluster LP can be used in Chromatic Correlation Clustering. We answer this question with affirmatives by presenting a $(2+\epsilon)$-approximation algorithm for Chromatic Correlation Clustering using a chromatic cluster LP.}
+}
+
+@article{lee2026optimal,
+  title={Optimal Learning-Augmented Algorithm for Online Bidding},
+  author={Changyeol Lee, Dahoon Lee, Jongseo Lee, Yongho Shin, Changki Yun},
+  journal={arXiv preprint arXiv:2510.13446},
+  year={2026},
+  month=5,
+  arxiv= {2605.07349},
+  abstract = {Recent advances in machine learning have spurred significant interest in learning-augmented algorithms, particularly for online optimization. A growing body of work has studied online bidding in this framework, aiming to characterize the trade-off between robustness and consistency. While this trade-off is fully understood for deterministic algorithms, a gap between upper and lower bounds remains in the randomized setting. In this paper, we close this gap by presenting a Pareto-optimal randomized learning-augmented algorithm for this problem. Our approach introduces the notion of a bidding profile, a novel framework for representing the distribution over bids generated by an algorithm. We show that any bidding algorithm can be reduced, without loss of generality, to one driven by a bidding profile, and we characterize the optimal profile via a system of delayed differential equations. Finally, we demonstrate the broader applicability of our approach by extending it to the linear search problem, yielding a significant improvement over prior learning-augmented algorithms for linear search.}
 }

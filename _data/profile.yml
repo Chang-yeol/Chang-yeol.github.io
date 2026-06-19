@@ -3,9 +3,12 @@ username: Changyeol Lee
 description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> <b>Email</b> - 777john_at_yonsei.ac.kr or changyeollee_at_yonsei.ac.kr 
 webpage: https://chang-yeol.github.io
 experience: # Remove for hiding the experience section
+- start: 2026.6.10
+  end: 2026.6.11
+  experience: Visited DGIST, South Korea, invited by Dr. <a href="https://sites.google.com/view/eunkupark/">Eunku Park</a><br/>Gave a talk at DGIST Theoretical Computer Science Seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
 - start: 2026.4.21
   end: 2026.4.23
-  experience: Invited speaker at <a href="https://nycu-theory-day.github.io/2026-April/">NYCU Theory Day</a><br/>Talk on <i>LP rounding algorithm for hierarchical correlation clustering and ultrametric violation distance</i>
+  experience: Invited speaker at <a href="https://nycu-theory-day.github.io/2026-April/">NYCU Theory Day</a><br/>Talk on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
 - start: 2025.1.2
   end: 2025.1.4
   experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2026/">WAS 2026</a><br/>(with Hyeonjun Shin)
@@ -17,7 +20,7 @@ experience: # Remove for hiding the experience section
   experience: Presented a poster at NeurIPS 2025
 - start: 2025.6.15
   end: 2025.6.21
-  experience: Visited University of Wrocław, Poland, invited by Prof. <a href="https://sites.google.com/cs.uni.wroc.pl/jby//">Jarosław Byrka</a><br/>Gave a talk at C⚙G seminar on <i>LP rounding algorithm for hierarchical correlation clustering and ultrametric violation distance</i> 
+  experience: Visited University of Wrocław, Poland, invited by Prof. <a href="https://sites.google.com/cs.uni.wroc.pl/jby//">Jarosław Byrka</a><br/>Gave a talk at C⚙G seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i> 
 - start: 2025.1.2
   end: 2025.1.4
   experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2025/">WAS 2025</a><br/>(with Shinwoo An, <a href="https://jkj8944.github.io/">Kyungjin Cho</a>, Juwon Kim)

@@ -1,0 +1,15 @@
+# These settings reload whenever a file is saved during local preview.
+navigation:
+  publications: true
+  experience: true
+  presentations: false
+  blog: false
+
+selected_publications:
+  title: SELECTED PUBLICATIONS
+  # BibTeX keys, displayed in this order.
+  papers:
+    - an2025handling
+    - lee2026optimal
+    - lee2026ultrametric
+    - abbasi2026approximating

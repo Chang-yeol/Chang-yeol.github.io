@@ -1,5 +1,7 @@
 {% if site.data.profile.experience %}
-  <p class="title">{{ site.theme_settings.experience_title }}</p>
+  {% unless include.hide_title %}
+    <p class="title">{{ site.theme_settings.experience_title }}</p>
+  {% endunless %}
   <ul class="exper-list">
     {% for exp in site.data.profile.experience %}
     <li class="meta">

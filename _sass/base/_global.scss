@@ -1,6 +1,6 @@
 *{
 	-webkit-text-size-adjust:none;
-	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
 }
 html, body{height:100%;}
@@ -27,8 +27,11 @@ time, mark, audio, video {
 	font-size: 1.05rem;
 	line-height: 1.5em;
 }
+html {
+	font-size: 120%;
+}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
@@ -80,11 +83,11 @@ p{
 		font-size : 1rem;
 	}
 	p{
-		font-size : 0.9rem;
+		font-size : 1.05rem;
 	}
 }
 ol, ul {
-	li { font-size: 15px; }
+	li { font-size: 1rem; }
 }
 a:link, a:visited, a:active, a:hover {
 	text-decoration: none; 

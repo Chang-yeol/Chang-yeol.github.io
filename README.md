@@ -16,7 +16,7 @@ It can still include a blog, but that is optional.
 
 ## Features
 
-Some of these features are optional and can be turned on or off in the `_config.yml` file.
+Navigation items can be turned on or off in `_data/homepage.yml` under `navigation`.
 
 ### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
 
@@ -93,7 +93,19 @@ Grape-Theme has two great features: the profile section and the project section 
 
 ### Feature Settings
 
-The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
+The publications, experience, presentations, and blog navigation items can be turned on or off in `_data/homepage.yml` under `navigation`.
+The same file contains the Selected Publications heading and ordered BibTeX keys under `selected_publications`.
+These settings are kept in a data file so that local preview reloads them on every rebuild without requiring a server restart.
+
+### Alphabetical Author Order
+
+To display `(*)` after a paper's author list on the Publications page, add this field inside its entry in `_bibliography/publications.bib`:
+
+```bibtex
+author_order = {alphabetical},
+```
+
+The author list keeps the order supplied in the `author` field.
 
 ### Favicon
 

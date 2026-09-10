@@ -1,0 +1,10 @@
+{% assign selected = site.data.homepage.selected_publications %}
+{% if selected.papers.size > 0 %}
+<section id="selectedpubs">
+  <p class="title">{{ selected.title }}</p>
+  [<a class="btn" href="{{ '/publications' | relative_url }}" title="Publications">All Publications</a>]
+  {% for key in selected.papers %}
+    {% bibliography --template selectedpubstemplate --bibliography_list_tag ul --query @*[key={{ key }}] %}
+  {% endfor %}
+</section>
+{% endif %}

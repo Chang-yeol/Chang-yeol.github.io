@@ -1,17 +1,49 @@
-#publications {
+#presentations {
     @extend %page-padding;
-    .bg{
-        content: "";
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        top: 105px;
-        left:0%;
-        height: 95px;
-        background-color: $theme-dark;
-    }
+}
+#publications, #experience, #presentations {
     h1.title{
         color:#fff;
         margin-bottom: 30px;
+        background-color: $theme-dark;
+        // Keep the full-width banner tall enough when the title wraps.
+        box-shadow: 0 0 0 100vmax $theme-dark;
+        clip-path: inset(-46px -100vmax -12px);
+    }
+}
+#publications, #experience {
+    margin: 0 auto;
+    overflow-wrap: anywhere;
+}
+
+#experience {
+    max-width: 1000px;
+}
+
+#publications {
+    max-width: 900px;
+    .author-order-asterisk {
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: -0.35em;
+    }
+    .author-order-note {
+        font-size: 0.75rem;
+        color: $text-gray;
+        sup {
+            font-size: 1em;
+            line-height: 0;
+        }
+    }
+    h2.bibliography {
+        margin-bottom: 0.75rem;
+    }
+    .author-order-note + h2.bibliography {
+        margin-top: 0.5rem;
+        padding-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+    ol.bibliography {
+        padding-right: 0;
     }
 }

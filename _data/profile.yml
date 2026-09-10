@@ -1,50 +1,53 @@
 image: assets/img/me.jpg
 username: Changyeol Lee
-description: Graduate student studying Computer Science at Yonsei Univ. <br/> Combinatorial Optimization Lab (Advisor - Prof. Hyung-Chan An) <br /> <b>Email</b> - 777john_at_yonsei.ac.kr or changyeollee_at_yonsei.ac.kr 
+description: "Ph.D student in Computer Science and Engineering, Yonsei University <br /> Advisor: Prof. Hyung-Chan An <br /> <b>Email</b> - 777john_at_yonsei_dot_ac_dot_kr"
 webpage: https://chang-yeol.github.io
 experience: # Remove for hiding the experience section
+- start: 2026.8.19
+  end: 2026.8.21
+  experience: Attended APPROX 2026 as an author
 - start: 2026.6.10
   end: 2026.6.11
-  experience: Visited DGIST, South Korea, invited by Dr. <a href="https://sites.google.com/view/eunkupark/">Eunku Park</a><br/>Gave a talk at DGIST Theoretical Computer Science Seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
+  experience: Visited DGIST, South Korea, invited by <a href="https://sites.google.com/view/eunkupark/">Dr. Eunku Park</a><br/>Gave a talk at DGIST Theoretical Computer Science Seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
 - start: 2026.4.21
   end: 2026.4.23
-  experience: Invited speaker at <a href="https://nycu-theory-day.github.io/2026-April/">NYCU Theory Day</a><br/>Talk on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
+  experience: Attended <a href="https://nycu-theory-day.github.io/2026-April/">NYCU Theory Day</a> as an invited speaker<br/>Gave a talk on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i>
 - start: 2025.1.2
   end: 2025.1.4
-  experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2026/">WAS 2026</a><br/>(with Hyeonjun Shin)
+  experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2026/">WAS 2026</a> (with Hyeonjun Shin)
 - start: 2025.12.13
   end: 2025.12.18
-  experience: Gave a talk at FOCS 2025, Session 10A
+  experience: Attended FOCS 2025 as an author and gave a talk in Session 10A
 - start: 2025.12.2
   end: 2025.12.7
-  experience: Presented a poster at NeurIPS 2025
+  experience: Attended NeurIPS 2025 as an author and presented a poster in San Diego Poster Session 3
 - start: 2025.6.15
   end: 2025.6.21
-  experience: Visited University of Wrocław, Poland, invited by Prof. <a href="https://sites.google.com/cs.uni.wroc.pl/jby//">Jarosław Byrka</a><br/>Gave a talk at C⚙G seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i> 
+  experience: Visited University of Wrocław, Poland, invited by <a href="https://sites.google.com/cs.uni.wroc.pl/jby//">Prof. Jarosław Byrka</a><br/>Gave a talk at C⚙G seminar on <i>Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</i> 
 - start: 2025.1.2
   end: 2025.1.4
-  experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2025/">WAS 2025</a><br/>(with Shinwoo An, <a href="https://jkj8944.github.io/">Kyungjin Cho</a>, Juwon Kim)
+  experience: Co-organized <a href="https://sites.google.com/yonsei.ac.kr/was2025/">WAS 2025</a> (with Shinwoo An, <a href="https://jkj8944.github.io/">Kyungjin Cho</a>, Juwon Kim)
 - start: 2024.10.23
   end: 2024.10.26
-  experience: Visited National Yang-Ming Chiao-Tung University (NYCU), Taiwan, invited by Prof. <a href="https://people.cs.nycu.edu.tw/~mjkao/">Mong-Jen Kao</a>
+  experience: Visited National Yang-Ming Chiao-Tung University (NYCU), Taiwan, invited by <a href="https://people.cs.nycu.edu.tw/~mjkao/">Prof. Mong-Jen Kao</a>
 - start: 2024.8.2
   end: 2024.8.3
-  experience: Speaker at <a href="https://algo.postech.ac.kr/workshops/waac24/">WAAC 2024</a>, Session 10<br/>Talk on <i>learning-augmented algorithms for multi-option ski-rental</i>
+  experience: Attended <a href="https://algo.postech.ac.kr/workshops/waac24/">WAAC 2024</a> as a speaker<br/>Gave a talk on <i>learning-augmented algorithms for multi-option ski-rental</i>
 - start: 2024.03.
   end: current
-  experience: Co-organizer of <a href="https://yonsei-cs-theory-students.github.io/">Yonsei CS Theory Student Group</a><br/>(with <a href="https://renariodyne.github.io/">Sungmin Kim</a>)
+  experience: Co-organizer of <a href="https://yonsei-cs-theory-students.github.io/">Yonsei CS Theory Student Group</a> (with <a href="https://renariodyne.github.io/">Sungmin Kim</a>)
 - start: 2023.10.27
   end: 2023.10.28
-  experience: Speaker at <a href="https://algo.postech.ac.kr/workshops/fwac23/Program.pdf">FWAC 2023</a>, Session 3<br/>Talk on <i>learning-augmented algorithms for multi-option ski-rental</i> 
+  experience: Attended <a href="https://algo.postech.ac.kr/workshops/fwac23/Program.pdf">FWAC 2023</a> as a speaker<br/>Gave a talk on <i>learning-augmented algorithms for multi-option ski-rental</i> 
 - start: 2023.10.27
   end: 2023.10.28
-  experience: Presented a poster at ICML 2023
+  experience: Attended ICML 2023 as an author and presented a poster in Poster Session 6
 - start: 2022.09.
   end: 2022.10.
-  experience: Visiting Research Intern, Cornell University, advised by Prof. <a href="https://people.orie.cornell.edu/shmoys/">David Shmoys</a>
+  experience: Visiting Research Intern, Cornell University, advised by <a href="https://people.orie.cornell.edu/shmoys/">Prof. David Shmoys</a>
 - start: 2018.12.
   end: 2021.02.
-  experience: Research Intern, Yonsei University, advised by Prof. <a href="http://opt.yonsei.ac.kr/an/">Hyung-Chan An</a>
+  experience: Research Intern, Yonsei University, advised by <a href="https://opt.yonsei.ac.kr/hyungchan/">Prof. Hyung-Chan An</a>
   # - start: 2017.03.
   #   end: 2019.02.
   #   experience: Student Council of Computer Science Department, Yonsei Univ.
@@ -76,14 +79,18 @@ social:
   facebook:
   instagram: 
 awards: # Remove for hiding the awards section
-  - High honors at (B.S.) graduation @ Yonsei Univ. (2021.02)
-  - RC Creative Platform Grand Prize, Yonsei Univ. & NEXON Co., Ltd. (2017.11)
+  - High Honors At (B.S.) Graduation @ Yonsei University (2021.02)
+  - RC Creative Platform Grand Prize, Yonsei University & NEXON Co., Ltd. (2017.11)
 teachings: # Remove for hiding the teachings section
-  - Teaching Assistent @ Yonsei Univ. Algorithm Analysis CSI3108 (Fall 2021, Fall 2023)
-  - Teaching Assistent @ Yonsei Univ. Data Structures (Spring 2021, Spring 2023)
-  - Tutor @ Yonsei Univ. Algorithm Analysis CSI3108 (Fall 2019, Fall 2020)
-  - Tutor @ Yonsei Univ. Linear Algebra MAT2011 (Spring 2019)
-  - Peer Mentor (Head Mentor) @ Yonsei-Nexon RC Creative Platform (2018-2020)
+  - role: Teaching Assistant @ Yonsei Univ.
+    courses:
+      - Algorithm Analysis CSI3108 (Fall 2021, Fall 2023)
+      - Data Structures CSI2103 (Spring 2021), CCO2103 (Spring 2023)
+  - role: Tutor @ Yonsei Univ.
+    courses:
+      - Algorithm Analysis CSI3108 (Fall 2019, Fall 2020)
+      - Linear Algebra MAT2011 (Spring 2019)
+  - role: Peer Mentor (Head Mentor) of Yonsei-Nexon RC Creative Platform (2018-2020)
 education:
-  - Ph.D student at Yonsei Univserity (advised by Prof. Hyung-Chan An)
-  - B.S. in Computer Science, Yonsei Univ. (2017.03-2021.02)
+  - Ph.D. in Computer Science and Engineering, Yonsei University (2021.02-2027.02, expected)
+  - B.S. in Computer Science and Engineering, Yonsei University (2017.03-2021.02)

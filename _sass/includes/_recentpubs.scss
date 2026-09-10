@@ -1,17 +1,40 @@
-#recentpubs {
-  position: relative;
-  overflow: hidden;
-  .recentpubs-wrap {
-    @extend %page-padding;
-    padding-top: 50px!important;
-    margin-bottom: 55px;
-    p.title {
-      color: $theme-dark;
-      font-size: 25px;
-      /*font-weight: 600;*/
+#portfolio #career .publications-column {
+  #selectedpubs + #recentpubs {
+    margin-top: 40px;
+  }
+  ul.bibliography {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+    list-style: disc outside;
+    overflow-wrap: anywhere;
+    li {
+      margin-bottom: 1.25rem;
+      &::marker {
+        color: $theme-color;
+      }
     }
   }
-  .bibliography {
-    margin-top: 1rem;
+  .paper-title {
+    font-weight: bolder;
+  }
+  a.paper-title {
+    color: $theme-dark;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    &:hover {
+      color: $theme-color;
+    }
+  }
+  .joint-work {
+    margin-top: 4px;
+    &, a {
+      font-size: 0.95rem;
+    }
+    a {
+      border-bottom: 1px dashed;
+      &:hover {
+        border-bottom-style: solid;
+      }
+    }
   }
 }

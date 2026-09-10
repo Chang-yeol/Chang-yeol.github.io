@@ -1,0 +1,64 @@
+{%- assign entry = include.entry -%}
+{%- assign paper_url = nil -%}
+{%- if entry.doi -%}
+  {%- assign doi = entry.doi | strip -%}
+  {%- if doi contains '://' -%}
+    {%- assign paper_url = doi | replace: 'http://', 'https://' -%}
+  {%- else -%}
+    {%- assign paper_url = doi | prepend: 'https://doi.org/' -%}
+  {%- endif -%}
+{%- elsif entry.arxiv -%}
+  {%- assign paper_url = entry.arxiv | strip | prepend: 'https://arxiv.org/abs/' -%}
+{%- elsif entry.url -%}
+  {%- assign paper_url = entry.url | strip -%}
+{%- endif -%}
+{%- assign venue = entry.booktitle | default: entry.journal | strip_html | strip -%}
+{%- assign is_preprint = false -%}
+{%- if venue contains 'arXiv preprint' -%}
+  {%- assign is_preprint = true -%}
+{%- endif -%}
+{%- assign short_venue = entry.abbr | default: venue -%}
+{%- if short_venue contains '(' -%}
+  {%- assign short_venue = short_venue | split: '(' | last | split: ')' | first -%}
+{%- endif -%}
+{%- assign venue_parts = short_venue | split: ', ' -%}
+<div class="publication-line">
+  {%- if paper_url -%}
+    <a class="paper-title" href="{{ paper_url }}">{{ entry.title }}</a>
+  {%- else -%}
+    <span class="paper-title">{{ entry.title }}</span>
+  {%- endif %}
+  {% if is_preprint -%}
+    <em class="publication-venue">{{ venue }}</em>
+  {%- elsif venue != '' -%}
+    <span class="publication-venue">({% if venue_parts contains 'to appear' %}To appear in {% elsif entry.type == 'inproceedings' %}In {% endif %}{{ venue_parts | first }} {{ entry.year }}{% for note in venue_parts offset:1 %}{% unless note == 'to appear' %}, {{ note }}{% endunless %}{% endfor %})</span>
+  {%- endif -%}
+</div>
+{%- assign separator = '' -%}
+{%- capture collaborators -%}
+  {%- for author in entry.author_array -%}
+    {%- assign author_is_self = false -%}
+    {%- if author.last == site.scholar.last_name and site.scholar.first_name contains author.first -%}
+      {%- assign author_is_self = true -%}
+    {%- endif -%}
+    {%- unless author_is_self -%}
+      {%- assign coauthor_url = nil -%}
+      {%- for coauthor in site.data.coauthors[author.last] -%}
+        {%- if coauthor.firstname contains author.first -%}
+          {%- assign coauthor_url = coauthor.url -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {{- separator -}}
+      {%- if coauthor_url -%}
+        <a href="{{ coauthor_url }}" target="_blank" rel="noopener noreferrer">{{ author.first }} {{ author.last }}</a>
+      {%- else -%}
+        {{ author.first }} {{ author.last }}
+      {%- endif -%}
+      {%- assign separator = ', ' -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{% if collaborators != '' -%}
+  <div class="joint-work">joint work with {{ collaborators }}</div>
+{%- endif %}

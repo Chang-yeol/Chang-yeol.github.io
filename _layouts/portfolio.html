@@ -29,6 +29,14 @@ layout: page
     </div>
     <div class="bg"></div>
   </section>
+  {% assign introduction = content | strip %}
+  {% if introduction != '' %}
+  <div id="introduction" class="container">
+    <div class="introduction-content">
+      {{ content }}
+    </div>
+  </div>
+  {% endif %}
   <!-- career section -->
   <section id="career" class="row">
     <article class="skills col-12 col-md-6">
@@ -38,12 +46,10 @@ layout: page
       {% include teachings.html %}
       {% include awards.html %}
     </article>
-    <article class="exper col-12 col-md-6">
-      {% include experience.html %}
+    <article class="publications-column col-12 col-md-6">
+      {% include selectedpubs.html %}
     </article>
   </section>
-
-  {% include recentpubs.html %}
   
-  <!-- {% include projects.html %} -->
+  {% comment %}{% include projects.html %}{% endcomment %}
 </div>

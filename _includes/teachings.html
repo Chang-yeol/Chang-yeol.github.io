@@ -2,7 +2,16 @@
   <p class="title">{{ site.theme_settings.teachings_title }}</p>
   <ul class="teachings-list">
     {% for teaching in site.data.profile.teachings %}
-    <li class="teaching">{{ teaching }}</li>
+    <li class="teaching">
+      {{ teaching.role }}
+      {% if teaching.courses %}
+      <ul class="teaching-courses">
+        {% for course in teaching.courses %}
+        <li>{{ course }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
     {% endfor %}
   </ul>
 {% endif %}

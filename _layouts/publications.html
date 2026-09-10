@@ -3,7 +3,7 @@ layout: page
 ---
 {% include scripts/publications.html %}
 <div id="publications">
-  <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
+  <p class="author-order-note"><sup>(<span class="author-order-asterisk">*</span>)</sup>: Authors are listed in alphabetical order.</p>
   {% bibliography --group_by year --group_order descending %}
 </div>

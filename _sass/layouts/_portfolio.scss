@@ -59,67 +59,52 @@
       background-color: $theme-dark;
     }
   }
+  #introduction {
+    margin-top: 95px;
+    margin-bottom: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow-wrap: anywhere;
+    .introduction-content {
+      @extend %page-padding;
+      @media (min-width: 992px) {
+        padding-left: 13.25% !important;
+        padding-right: 13.25% !important;
+      }
+      > p:first-child {
+        display: flow-root;
+        &::first-letter {
+          float: left;
+          font-size: 3em;
+          line-height: 0.9;
+          font-weight: 600;
+          margin: 0.05em 0.12em 0 0;
+          color: $theme-dark;
+        }
+      }
+    }
+    p + p {
+      margin-top: 1rem;
+    }
+    a {
+      border-bottom: 1px dashed;
+    }
+  }
+  #introduction + #career {
+    margin-top: 0;
+  }
   #career {
     @extend %page-padding;
     margin-bottom: 55px;
     margin-top: 55px;
-    .title {
+    p.title {
       margin-top: 15px;
       color: $theme-dark;
-      font-size: 25px;
+      font-size: 1.5rem;
       /*font-weight: 600;*/
     }
-    .exper {
+    .publications-column {
       padding-top: 35px;
-      ul.exper-list {
-        margin-top: 25px;
-        margin-left: 3%;
-        border-left: 5px solid $theme-color;
-        list-style-type: none;
-        li {
-          animation-name: fadein;
-          animation-duration: 1s;
-          animation-timing-function: ease-in-out;
-          -webkit-animation-name: fadein;
-          -webkit-animation-duration: 1s;
-          -webkit-animation-timing-function: ease-in-out;
-        }
-        li.meta {
-          position: relative;
-          padding: 15px 0 15px 30px;
-          p {
-            /*font-weight: 600;*/
-            line-height: 1rem;
-          }
-          .date {
-            font-size: 0.75rem;
-            color: rgba(0, 0, 0, 0.5);
-          }
-          .description {
-            font-size: 1rem;
-          }
-        }
-        li.meta::before {
-          content: "";
-          position: absolute;
-          width: 15px;
-          height: 15px;
-          top: 42%;
-          left: -10px;
-          background-color: $theme-color;
-          border-radius: 50%;
-        }
-      }
-      @keyframes fadein {
-        from {
-          transform: translateY(-10%);
-          opacity: 0;
-        }
-        to {
-          transform: translateY(0%);
-          opacity: 1;
-        }
-      }
     }
     .skills {
       padding-top: 35px;
@@ -227,6 +212,18 @@
         color: $theme-color;
         padding-right: 5px;
         vertical-align: text-top;
+      }
+      ul.teaching-courses {
+        margin: 4px 0 12px;
+        padding-left: 1.5rem;
+        list-style: circle outside;
+        li {
+          margin: 5px 0;
+          font-size: 1rem;
+          &::marker {
+            color: $theme-color;
+          }
+        }
       }
     }
     ul.educations-list {

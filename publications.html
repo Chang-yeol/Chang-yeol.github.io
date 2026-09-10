@@ -20,7 +20,9 @@
   <!-- Fonts & Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -42,34 +44,83 @@
 <!-- End Jekyll SEO tag -->
 
 </head>
+
 <!--jQuery-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <body>
   <div class="container">
     
 
+
 <section id="header-nav">
   <header>
     <nav>
       <ul>
         
-        <a href="/">
-          <li class="btn-nav">Home</li>
-        </a>
-        <li class="current">Publications</li>
+          
+          
+          
+          
+          
+          
+            
+              <li class="btn-nav"><a href="/">Home</a></li>
+            
+          
         
+          
+          
+          
+          
+          
+          
+            
+              <li class="current" aria-current="page">Publications</li>
+            
+          
         
-        <!-- presentations -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="btn-nav"><a href="/experience">Research Experience</a></li>
+            
+          
+        
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
         
       </ul>
     </nav>
   </header>
 </section>
+
 <!--publications.js-->
 <script type="text/javascript" src="/assets/js/publications.js"></script>
 <div id="publications">
-  <section class="bg"></section>
   <h1 class="title">Publications</h1>
+  <p class="author-order-note"><sup>(<span class="author-order-asterisk">*</span>)</sup>: Authors are listed in alphabetical order.</p>
   <h2 class="bibliography">2026</h2>
 <ol class="bibliography"><li><!-- Entry bib key -->
 <div id="lee2026ultrametric">
@@ -78,15 +129,16 @@
   <div class="title">Ultrametric Violation Distance with Upper and Lower Bounds: A 4-Approximation</div>
   <!-- Author -->
   <div class="author">
-            <em>Lee, Changyeol</em>,&nbsp;and <a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>
+            <strong>Changyeol Lee</strong>,&nbsp;and <a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>
             
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In <b>37th International Symposium on Algorithms and Computation (ISAAC, to appear)</b>, Dec, 2026
+    In 37th International Symposium on Algorithms and Computation (ISAAC, to appear), Dec, 2026
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -97,8 +149,8 @@
     <div class="abstract hidden">
       <p>We study the ultrametric violation distance problem with upper and lower bounds. In this problem, the input consists of a set of points together with a distance, an upper bound, and a lower bound for each pair of points. The goal is to find an ultrametric that satisfies all bounds and minimizes the violation distance, defined as the number of pairs whose output distance differs from the input.
 
-Previously, approximation algorithms for this problem were known only for special cases, such as the unconstrained version and the version with only lower bounds. When both upper and lower bounds are present, however, no algorithmic results were known beyond feasibility testing. In this paper, we give the first approximation algorithm for the general problem, achieving an approximation ratio of 4. This immediately improves the best approximation ratio of 5 previously known for the unconstrained version, first obtained by Charikar and Gao (SODA 2024) and subsequently by An, Kao, Lee, and Lee (FOCS 2025). Our result also improves the best approximation ratio of 62 previously known for the version with lower bounds, due to Das, Kipouridis, and Spoerhase (SOSA 2026). As a further consequence, via Das et al.’s reduction, our result yields 20-approximation algorithms for the unconstrained tree metric violation distance problem and its lower-bounded version, improving the previous ratios 30 and 310, respectively.
-</p>
+  Previously, approximation algorithms for this problem were known only for special cases, such as the unconstrained version and the version with only lower bounds. When both upper and lower bounds are present, however, no algorithmic results were known beyond feasibility testing. In this paper, we give the first approximation algorithm for the general problem, achieving an approximation ratio of 4. This immediately improves the best approximation ratio of 5 previously known for the unconstrained version, first obtained by Charikar and Gao (SODA 2024) and subsequently by An, Kao, Lee, and Lee (FOCS 2025). Our result also improves the best approximation ratio of 62 previously known for the version with lower bounds, due to Das, Kipouridis, and Spoerhase (SOSA 2026). As a further consequence, via Das et al.’s reduction, our result yields 20-approximation algorithms for the unconstrained tree metric violation distance problem and its lower-bounded version, improving the previous ratios 30 and 310, respectively.
+  </p>
     </div>
 </div></li>
 <li><!-- Entry bib key -->
@@ -107,21 +159,23 @@ Previously, approximation algorithms for this problem were known only for specia
   <!-- Title -->
   <div class="title">Approximating (Weighted) Chromatic Correlation Clustering via Cluster LP</div>
   <!-- Author -->
-  <div class="author"><a href="https://sites.google.com/view/fatemeabbasi" target="_blank" rel="noopener noreferrer">Abbasi, Fateme</a>,&nbsp;<a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>,&nbsp;<a href="https://sites.google.com/cs.uni.wroc.pl/jby//" target="_blank" rel="noopener noreferrer">Byrka, Jarosław</a>,&nbsp;
-            <em>Lee, Changyeol</em>,&nbsp;and <a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>
-            
+  <div class="author"><a href="https://sites.google.com/view/fatemeabbasi" target="_blank" rel="noopener noreferrer">Fateme Abbasi</a>,&nbsp;<a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>,&nbsp;<a href="https://sites.google.com/cs.uni.wroc.pl/jby//" target="_blank" rel="noopener noreferrer">Jarosław Byrka</a>,&nbsp;
+            <strong>Changyeol Lee</strong>,&nbsp;and <a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Yongho Shin</a>
+            &nbsp;<sup class="author-order-marker" aria-label="Authors are listed in alphabetical order">(<span class="author-order-asterisk">*</span>)</sup>
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In <b>29th International Conference on Approximation Algorithms for Combinatorial Optimization Problems (APPROX)</b>, Aug, 2026
+    In Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM), vol. 392, pp. 13:1–13:20, Sep, 2026
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
       [<a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>]
       [<a href="http://arxiv.org/abs/2510.13446" class="btn btn-sm z-depth-0" role="button">arXiv</a>]
+      [<a href="http://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2026.13" class="btn btn-sm z-depth-0" role="button">DOI</a>]
   </div>
 
   <!-- Hidden abstract block -->
@@ -136,8 +190,8 @@ Previously, approximation algorithms for this problem were known only for specia
   <div class="title">Optimal Learning-Augmented Algorithm for Online Bidding</div>
   <!-- Author -->
   <div class="author">
-            <em>Lee, Changyeol</em>,&nbsp;<a href="https://github.com/dahoon46/" target="_blank" rel="noopener noreferrer">Lee, Dahoon</a>,&nbsp;<a href="https://leejseo.com/about/" target="_blank" rel="noopener noreferrer">Lee, Jongseo</a>,&nbsp;<a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>,&nbsp;and <a href="https://tamref.github.io/" target="_blank" rel="noopener noreferrer">Yun, Changki</a>
-            
+            <strong>Changyeol Lee</strong>,&nbsp;<a href="https://sore-forger-fd9.notion.site/Dahoon-Lee-f6ce1d1dcfc1447985efdaeb080624cd" target="_blank" rel="noopener noreferrer">Dahoon Lee</a>,&nbsp;<a href="https://leejseo.com/about/" target="_blank" rel="noopener noreferrer">Jongseo Lee</a>,&nbsp;<a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Yongho Shin</a>,&nbsp;and <a href="https://tamref.github.io/" target="_blank" rel="noopener noreferrer">Changki Yun</a>
+            &nbsp;<sup class="author-order-marker" aria-label="Authors are listed in alphabetical order">(<span class="author-order-asterisk">*</span>)</sup>
   </div>
 
   <!-- Journal/Book title and date -->
@@ -145,6 +199,7 @@ Previously, approximation algorithms for this problem were known only for specia
   <div class="third-line">
     arXiv preprint arXiv:2605.07349, May, 2026
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -164,15 +219,16 @@ Previously, approximation algorithms for this problem were known only for specia
   <!-- Title -->
   <div class="title">Handling LP-Rounding for Hierarchical Clustering and Fitting Distances by Ultrametrics</div>
   <!-- Author -->
-  <div class="author"><a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>,&nbsp;<a href="https://people.cs.nycu.edu.tw/~mjkao/" target="_blank" rel="noopener noreferrer">Kao, Mong-Jen</a>,&nbsp;
-            <em>Lee, Changyeol</em>,&nbsp;and Lee, Mu-Ting
+  <div class="author"><a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>,&nbsp;<a href="https://people.cs.nycu.edu.tw/~mjkao/" target="_blank" rel="noopener noreferrer">Mong-Jen Kao</a>,&nbsp;
+            <strong>Changyeol Lee</strong>,&nbsp;and Mu-Ting Lee&nbsp;<sup class="author-order-marker" aria-label="Authors are listed in alphabetical order">(<span class="author-order-asterisk">*</span>)</sup>
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In <b>IEEE 66th Annual Symposium on Foundations of Computer Science (FOCS)</b>, pp. 1144-1169, Dec, 2025
+    In IEEE 66th Annual Symposium on Foundations of Computer Science (FOCS), pp. 1144-1169, Dec, 2025
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -198,15 +254,16 @@ We further illustrate this perspective by showing that a direct application of t
   <div class="title">Improved Algorithms for Overlapping and Robust Clustering of Edge-Colored Hypergraphs: An LP-Based Combinatorial Approach</div>
   <!-- Author -->
   <div class="author">
-            <em>Lee, Changyeol</em>,&nbsp;<a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>,&nbsp;and <a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>
+            <strong>Changyeol Lee</strong>,&nbsp;<a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Yongho Shin</a>,&nbsp;and <a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>
             
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In <b>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</b>, vol. 38, pp. 78913–78945, Dec, 2025
+    In The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), vol. 38, pp. 78913–78945, Dec, 2025
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -228,16 +285,17 @@ We further illustrate this perspective by showing that a direct application of t
   <!-- Title -->
   <div class="title">Improved Learning-Augmented Algorithms and (Tight) Lower Bounds for Multi-Option Ski Rental Problem</div>
   <!-- Author -->
-  <div class="author"><a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>,&nbsp;
-            <em>Lee, Changyeol</em>,&nbsp;Lee, Gukryeol,&nbsp;and <a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>
+  <div class="author"><a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Yongho Shin</a>,&nbsp;
+            <strong>Changyeol Lee</strong>,&nbsp;Gukryeol Lee,&nbsp;and <a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>
             
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    <b>ACM Transactions on Algorithms (TALG)</b>, vol. 22, Nov, 2025
+    ACM Transactions on Algorithms (TALG), vol. 22, Nov, 2025
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -257,16 +315,17 @@ We further illustrate this perspective by showing that a direct application of t
   <!-- Title -->
   <div class="title">Improved Learning-Augmented Algorithms for the Multi-Option Ski Rental Problem via Best-Possible Competitive Analysis</div>
   <!-- Author -->
-  <div class="author"><a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Shin, Yongho</a>,&nbsp;
-            <em>Lee, Changyeol</em>,&nbsp;Lee, Gukryeol,&nbsp;and <a href="http://opt.yonsei.ac.kr/an/" target="_blank" rel="noopener noreferrer">An, Hyung-Chan</a>
+  <div class="author"><a href="https://yonghoshin36.github.io/" target="_blank" rel="noopener noreferrer">Yongho Shin</a>,&nbsp;
+            <strong>Changyeol Lee</strong>,&nbsp;Gukryeol Lee,&nbsp;and <a href="https://opt.yonsei.ac.kr/hyungchan/" target="_blank" rel="noopener noreferrer">Hyung-Chan An</a>
             
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    In <b>Proceedings of the 40th International Conference on Machine Learning (ICML)</b>, vol. 202, pp. 31539–31561, 23–29 jul, 2023
+    In Proceedings of the 40th International Conference on Machine Learning (ICML), vol. 202, pp. 31539–31561, 23–29 jul, 2023
   </div>
+
 
   <!-- Links/Buttons -->
   <div class="links">
@@ -283,6 +342,7 @@ We further illustrate this perspective by showing that a direct application of t
     </div>
 </div></li></ol>
 </div>
+
 
 <!-- Footer -->
 <footer>
